@@ -1,0 +1,55 @@
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
+
+  .box {
+  border-radius: 1.5vw;
+  background-color: rgba(0,4,8,0.7);
+  backdrop-filter: blur(1vw);
+  -webkit-backdrop-filter: blur(1vw);
+  width: 35em;
+  height: 17em;
+  top: 0; left: 0; bottom: 0; right: 0;
+  position: absolute;
+  overflow: auto;
+  margin: auto;
+}
+
+body {
+    background: url('../background.png') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+} 
+
+.hdr {
+  font-family: 'JetBrains Mono', monospace;
+  color: rgb(217,205,215);
+  text-align: center;
+  font-size:8em;
+}
+
+.text {
+  font-family: 'JetBrains Mono', monospace;
+  text-align: center;
+  font-size:3em;
+  line-height:0.3em;
+}
+
+.fa-brands {
+  color: rgba(217,205,215,0.6);
+}
+
+.fa-solid {
+  color: rgba(217,205,215,0.6);
+}
+
+@media only screen and (orientation: portrait) {
+    .box {
+        font-size: 150%;
+    }
+}
+
+@media only screen 
+and (min-width : 2160px) {
+    body {
+        font-size: 300%;
+    }
+}
